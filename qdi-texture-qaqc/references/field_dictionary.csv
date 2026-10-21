@@ -1,0 +1,109 @@
+field,meaning,used_by_checks
+qdixid,Unneeded (qdix row id; NULL = no location),NO_LOCATION
+relateid,Q number (borehole id; 10 chars e.g. 0000242265 or 00Q0016567),RELATEID_*; NULL_RELATEID
+sample_num,Sample Name (e.g. TRR-01),duplicates
+sampledepth,Sample Depth (ft),DEPTH_*
+sand_pct,"Sand % of just sand/silt/clay, no gravel",PCT_OUT_OF_RANGE; GROUP_SUM; DERIVED (sand_total/(sand_total+silt+clay))
+silt_pct,"Silt % of just sand/silt/clay, no gravel",same
+clay_pct,"Clay % of just sand/silt/clay, no gravel",same
+gravel_pct,"Gravel %, total",DERIVED (gravel/totalweight)
+precambrian_blk,Precambrian % of 3 ages,DERIVED (precambrian/(precambrian+paleozoic+cret_total))
+paleozoic_blk,Paleozoic % of 3 ages,same
+cretaceous_blk,Cretaceous % of 3 ages,same
+crystalline_blk,Crystalline % of xlline/carb/shale,DERIVED (precambrian/(precambrian+carbonate_total+shale)) ~98% exact
+carbonate_blk,Carbonate % of xlline/carb/shale,same
+shale_blk,Shale % of xlline/carb/shale,same
+elevation,Elevation (ft) - from qdix (borehole),ELEVATION_OUT_OF_RANGE
+depth_top,Depth (ft); 0 is often a placeholder,DEPTH_TOP_GT_BOTTOM; SAMPLEDEPTH_OUTSIDE_INTERVAL
+depth_bottom,"Often unneeded, check",same
+depth_unit,"Often unneeded, check (f/m)",DEPTH_UNIT_*
+project,Often a County or CGA,
+scientist,scientist last name,
+date_modify,Date modified,read-only verification
+reference,Often unneeded,
+correlation,"Correlation, rare",
+notes1,Context,
+notes2-notes5,Unneeded,
+totalweight,Total Weight (g),HEAVY_SAMPLE; NEGATIVE_WEIGHT
+gravel,Gravel Weight >2mm (g),GRAVEL_GT_TOTAL
+adjustweight,Total weight minus Gravel (g),ADJUSTWEIGHT_MISMATCH
+moist_correct,Moisture Correction,
+adjdryweight,Adjusted Dry Weight (g),SSC_WEIGHTS_NE_ADJDRY
+sand_12,Weight 1-2mm sand (g),sand_12_pct
+sand_a,Weight 1/5-1mm (g),
+sand_b,Weight <1/5mm (g),
+other_split,?,
+other_weight,Weight <1 mm (g),
+sand_total,Total weight of sand (g),
+hydrometer,Hydrometer Reading,
+hydrometer_control,Control Hydrometer Reading,
+clay,Total Clay Weight (g),
+sand_clay,Sand and Clay Weight (g),SAND_CLAY_WEIGHT_MISMATCH
+silt,Silt Weight (g),
+type,?,VALUE_FORMAT
+deposittype,Deposit Type T (Till) or L (Lacustrine); data also has T* O F C G I A D B W H E X S P R,VALUE_NOT_ALLOWED (digits/blank only)
+stratunit,Stratigraphic Unit,STRAT_*
+stratmember,Stratigraphic Member,STRATMEMBER_UNKNOWN
+stratformation,Stratigraphic Formation,STRATFORMATION_*
+strat_work,Working interpretation of stratigraphy,
+leached,Leached Y/N,VALUE_NOT_ALLOWED
+previnterpt,Previous Interpretation,
+dry_color,Dry Munsell Color,MUNSELL_UNPARSEABLE
+wet_color,Wet Munsell Color,MUNSELL_UNPARSEABLE
+sand_12_pct,Percent 1-2mm Sand,DERIVED (sand_12/sand_total)
+fine_pct,(no description),PCT_OUT_OF_RANGE
+coarse_pct,(no description),PCT_OUT_OF_RANGE
+felsic,Felsic grain count,ROLLUP precambrian
+quartzite,Quartzite grain count,ROLLUP precambrian
+clear_quartz,Clear quartz grain count,ROLLUP precambrian
+mafic_igneous,Mafic igneous count,ROLLUP precambrian
+metasedvol,Metasediments count,ROLLUP precambrian
+iron,Iron count,ROLLUP precambrian
+red_volcanic,Red volcanic count,ROLLUP precambrian
+pc_arkosic,Precambrian arkosic count,ROLLUP precambrian
+pc_qtz_arenite,Precambrian quartz arenite sandstone count,ROLLUP precambrian
+pc_other,Precambrian other count,ROLLUP precambrian
+precambrian,Precambrian total count,ROLLUP grand_total
+carbonate,Carbonate Count,ROLLUP paleozoic
+paleo_ss,Paleozoic Sandstone Count,ROLLUP paleozoic
+paleo_shale,Paleozoic Shale Count,ROLLUP paleozoic
+paleo_other,Paleozoic Other Count,ROLLUP paleozoic
+paleozoic,Paleozoic Total Count,ROLLUP grand_total
+carbonate_total,Carbonate Total Count (definition not reproducible from parts),
+silt_norm,Normal Silt,
+xlline_norm,Normal Xlline,
+gray_shale,Gray Shale Count,ROLLUP shale
+speckled_shale,Speckled Shale Count,ROLLUP shale
+shale,Shale Total Count,ROLLUP cret_total
+limestone,Limestone Count,ROLLUP cret_total
+inoceramus,Inoceramus Shell Count,ROLLUP cret_total
+pyrite,Pyrite Count,ROLLUP cret_total
+lignite,Lignite Count,ROLLUP cret_total
+ostrandersand,Ostrander Sand Count,ROLLUP cret_total
+cret_other,Cretaceous Other Count,ROLLUP cret_total
+cret_total,Cretaceous Total Count,ROLLUP grand_total
+chert,Chert Count,ROLLUP other_total
+unknown,Unknown Count,ROLLUP other_total
+secondary,Secondary Count,ROLLUP other_total
+other_other,Other Count,ROLLUP other_total
+other_total,Total Other Count,ROLLUP grand_total
+ccs_other,CCS Other Count,
+grand_total,Total Count,ROLLUP
+bulk_total,Bulk Total Count,
+ccs_blk,CCS Bulk Count,
+counted_by,Grain Counter,
+split,Split counted,
+grain_note1-4,Grain Count Notes,
+felic_cls..pcother_cls,% of PC Crystalline class (count / precambrian),GROUP_SUM; DERIVED
+light_cls/dark_cls/red_cls,% Light/Dark/Red out of light/dark/red,GROUP_SUM
+carbchert_cls/ss_cls/shale_cls/pother_cls,% of Carb Paleozoic class (count / paleozoic),GROUP_SUM; DERIVED
+chert_grp/sst_grp/psh_grp,% of Carb Paleozoic group,GROUP_SUM
+gray_cls..cothers_cls,% of Shale Cretaceous class (count / cret_total),GROUP_SUM; DERIVED
+gsh_grp/misc_k_grp,% shale / not shale of Shale Cretaceous group,GROUP_SUM; DERIVED gsh_grp
+others_pct,% total misc other out of grand total,DERIVED (other_total/grand_total)
+ccs_others_pct,% ccs other out of grand total,DERIVED if verified
+incomplete,?,
+groupid,?,
+importseq,?,
+importerrors1-2,? things it couldn't import,
+sourcefile,Source File,

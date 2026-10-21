@@ -1,0 +1,289 @@
+code	description
+QAIU	Aitkin Formation
+QAIA	Alborn Member  of the Aitkin Formation
+QAIN	Nelson Lake Member  of the Aitkin Formation
+QAIP	Prairie Lake Member  of the Aitkin Formation
+QARU	Argusville Formation
+QBAU	Barnum Formation
+QBAK	Knife River Member  of the Barnum Formation
+QBAL	Lakewood Member  of the Barnum Formation
+QBAM	Moose Lake Member  of the Barnum Formation
+QBAW	Wrenshall Member  of the Barnum Formation
+QBFU	Big Fork Formation
+QBWU	Boundary Waters Formation
+QBNU	Brenna Formation
+QBVU	Browerville Formation
+QBRU	Buffalo River Formation
+QCMU	Cromwell Formation
+QCMC	Coon Creek Member  of the Cromwell Formation
+QCMS	Sunrise Member (redefined) of the Cromwell Formation
+QCMM	Mille Lacs Member  of the Cromwell Formation
+QCWU	Crow Wing River Formation
+QCWM	Marcoux Member  of the Crow Wing River Formation
+QCWS	Sebeka Member  of the Crow Wing River Formation
+QEBU	Eagle Bend Formation
+QELU	Elmdale Formation
+QFRU	Forest River Formation
+QFRF	Falconer Member
+QFRH	Huot Member
+QFNU	Funkley Formation
+QGDU	Gardar Formation
+QGVU	Gervais Formation
+QGRU	Goose River Formation
+QGRD	Dahlen Member  of the Goose River Formation
+QGRS	St. Hilaire Member  of the Goose River Formation
+QHCU	Hawk Creek Formation
+QHNU	Henderson Formation
+QHWU	Hewitt Formation
+QHSU	Hillside Sand
+QINU	Independence Formation
+QINL	South Long Lake Member  of the Independence Formation
+QJRU	James River Formation
+QLHU	Lake Henry Formation
+QLHM	Meyer Lake Member  of the Lake Henry Formation
+QLHS	Sauk Centre Member  of the Lake Henry Formation
+QLLU	Loveland Loess
+QMLU	Mulligan Formation
+QNWU	Nashwauk Formation
+QNBU	New Brighton Formation
+QNUU	New Ulm Formation
+QNUD	Dovray Member  of the New Ulm Formation
+QNUF	Falun Member  of the New Ulm Formation
+QNUG	Garden City Member  of the New Ulm Formation
+QNUH	Heiberg Member  of the New Ulm Formation
+QNUI	Ivanhoe Member  of the New Ulm Formation
+QNUM	Moland Member  of the New Ulm Formation
+QNUT	Twin Cities Member  of the New Ulm Formation
+QNUV	Verdi Member  of the New Ulm Formation
+QOTU	Otter Tail Formation
+QOTH	Hawley Member  of the Otter Tail Formation
+QOTN	New York Mills Member  of the Otter Tail Formation
+QOTV	Villard Member  of the Otter Tail Formation
+QPEU	Peoria Formation
+QPIU	Pierce Formation
+QPRU	Poplar River Formation
+QPRH	Harwood Member of the Poplar River Formation
+QPRW	West Fargo Member of the Poplar River Formation
+QRLU	Red Lake Falls Formation
+QRLL	Lower Member  of the Red Lake Falls Formation
+QRLP	Upper Member  of the Red Lake Falls Formation
+QRFU	River Falls Formation
+QRCU	Rose Creek Formation
+QRCB	Bennington Member  of the Rose Creek Formation
+QRSU	Roxana Silt
+QSAU	Saum Formation
+QSRU	Sherack Formation
+QSYU	Sheyenne Formation
+QSOU	Shooks Formation
+QSFU	St. Francis Formation
+QTSU	Traverse des Sioux  Formation
+QWTU	Whetstone Formation
+QWIU	Wirt Formation
+QWYU	Wylie Formation
+QUVU	Unnamed Quaternary unit pre-dating W-sequence
+QUVR	Unnamed Quaternary unit pre-dating W-sequence, Rainy provenance
+QUVS	Unnamed Quaternary unit pre-dating W-sequence, Superior provenance
+QUVW	Unnamed Quaternary unit pre-dating W-sequence, Winnipeg provenance
+QUVM	Unnamed Quaternary unit pre-dating W-sequence, Riding Mtn provenance
+QUWU	Unnamed Quaternary unit  W-sequence
+QUWR	Unnamed Quaternary unit  W-sequence, Rainy provenance
+QUWS	Unnamed Quaternary unit  W-sequence, Superior provenance
+QUWW	Unnamed Quaternary unit  W-sequence, Winnipeg provenance
+QUWM	Unnamed Quaternary unit  W-sequence, Riding Mtn provenance
+QUXU	Unnamed Quaternary unit  X-sequence
+QUXR	Unnamed Quaternary unit  X-sequence, Rainy provenance
+QUXS	Unnamed Quaternary unit  X-sequence, Superior provenance
+QUXW	Unnamed Quaternary unit  X-sequence, Xinnipeg provenance
+QUXM	Unnamed Quaternary unit  X-sequence, Riding Mtn provenance
+QUUU	Unnamed Quaternary unit
+QUUR	Unnamed Quaternary unit , Rainy provenance
+QUUS	Unnamed Quaternary unit , Superior provenance
+QUUW	Unnamed Quaternary unit , Xinnipeg provenance
+QUUM	Unnamed Quaternary unit , Riding Mtn provenance
+BSMT	Basement
+CAMB	Cambrian,Undifferentiated
+CDRE	Dresbachian Stage
+CECR	Eau Claire
+CEMS	Eau Claire-Mt.Simon
+CFIG	Franconia-Ironton-Galesvill
+CFRA	Franconian Stage
+CFRN	Franconia
+CGEC	Galesville-Eau Claire
+CGSL	Galesville
+CIGE	Ironton-Galesville-Eau Clai
+CIGL	Ironton-Galesville
+CIRN	Ironton
+CJDN	Jordan
+CJSL	Jordan-St.Lawrence
+CMSH	Mt.Simon-Hinckley
+CMTS	Mt.Simon
+CSLF	St.Lawrence-Franconia
+CSTL	St.Lawrence
+DCLC	Chickasaw Shale
+DCLP	L.Cedar Valley-Pinicon Ridg
+DCLS	L.Cedar Valley-Spillville
+DCOG	Cedar Valley-Galena
+DCOM	Cedar Valley-Maquoketa
+DCUM	Coralville Fm + Hinckle Mbr
+DCUU	Lithograph City Fm
+DCVA	Cedar Valley Group
+DCVL	Lower Cedar Valley
+DCVU	Upper Cedar Valley
+DEVO	Devonian, Undifferentiated
+DPOM	Pinicon Ridge-Maquoketa
+DSOG	Spillville-Galena
+DSOM	Spillville-Maquoketa
+DSPL	Wapsipinicon/Spillville Fm
+DWAP	Wapsipinicon Group
+DWPR	Wapsipinicon/Pinicon Ridge
+HUUA	stream alluvium
+HUUP	peat
+JURA	Jurassic-Hallock Redbeds
+KCBH	Carlile/Blue Hill Mbr
+KCCD	Carlile/Codell Sandstone Mb
+KCFP	Carlile/Fairport Mbr
+KCLR	Coleraine
+KCRL	Carlile Shale
+KDKT	Dakota
+KDNB	Dakota/Nishnabotna Mbr
+KDWB	Dakota/Woodbury Mbr
+KGRN	Greenhorn
+KGRS	Ganeros Shale
+KNBR	Niobrara
+KPRR	Pierre Shale
+KREG	Cretaceous Regolith
+KRET	Cretaceous,Undiff.
+KSRC	Split Rock Creek
+KWIH	Windrow/Iron Hill Mbr
+KWND	Windrow
+KWOS	Windrow/Ostrander Mbr
+MTPL	Multiple
+NA	Not Applicable
+NRCD	No Record
+ODCR	Decorah
+ODGL	Dubuque-Galena
+ODPG	Decorah-Platteville-Glenwoo
+ODPL	Decorah-Platteville
+ODUB	Dubuque
+OGAL	Galena
+OGCM	Galena/Cummingsville Mbr
+OGDC	Galena-Decorah
+OGDP	Galena-Decorah-Platteville
+OGPR	Galena/Prosser Mbr
+OGSP	Glenwood-St.Peter
+OGSV	Galena/Stewartville Mbr
+OGWD	Glenwood
+OMAQ	Maquoketa
+OMQD	Maquoketa-Dubuque
+OMQG	Maquoketa-Galena
+OPCJ	Prairie Du Chien-Jordan
+OPDC	Prairie Du Chien Group
+OPGW	Platteville-Glenwood
+OPNR	Shakopee/New Richmond Mbr
+OPOD	Oneota Fm(Prairie Du Chien)
+OPSH	Shakopee Fm(Prairie Du Chie
+OPSP	Platteville-St.Peter
+OPVL	Platteville
+OPWR	Shakopee/Willow River Mbr
+ORDO	Ordovician,Undiff.
+ORRV	Red River
+ORWN	Red River-Winnipeg
+OSPC	St.Peter-Prairie Du Chien
+OSTM	Stoney Mountain
+OSTP	St.Peter
+OSTW	Stonewall
+OWIN	Winnepeg
+PAAR	Argo Gneiss
+PAAU	Algoman Granites Und.
+PABL	Bellingham Granite
+PABR	Burntside Gneiss
+PADL	Deer Lake Complex
+PAES	Soudan Iron-Formation
+PAEY	Ely Greenstone
+PAFR	Fort Ridgley Granite
+PAGF	Granite Falls Gneiss
+PAGR	Giants Range Granite Und.
+PAGU	Archean Granite Pluton
+PAKG	Knife Lake Group
+PALL	Lac Lacroix Granite
+PALV	Lake Vermilion Formation
+PAMC	Mcgrath Gneiss
+PAMR	Morton Gneiss
+PAMV	Montevideo Gneiss
+PANL	Newton Lake Formation
+PAOD	Odessa Granite
+PAOR	Ortonville Granite
+PARG	Richmond Gneiss
+PASF	Seaforth Gneiss
+PASG	Saganaga Tonalite
+PASH	Sacred Heart Granite
+PASR	Sauk Rapids Meta. Complex
+PAST	Sartell Gneiss
+PASW	St.Wendel  Metagabbro
+PAUD	Archean Rocks Undivided
+PAVC	Vermilion Granitic Complex
+PAWT	Watab Amphibolite
+PCCR	Precambrian Crystalline Roc
+PCRG	Pre-Croixan Regolith
+PCUU	Precambrian Rocks Undiff.
+PEAG	Animikie Group
+PEBC	Bradbury Creek Grnodiorte
+PEBI	Biwabik Iron-Formation
+PECM	Cedar Mountain Complex
+PEDN	Denham Formation
+PEFH	Freedhem Granodiorite
+PEGI	Gunflint Iron-Formation
+PEGT	Glen Township Formation
+PEGU	E.Proterozoic Granite Pluto
+PEHL	Hillman Migmatite
+PEIL	Isle Granite
+PELF	Little Falls Formation
+PEML	Mille Lacs Group
+PEMN	Mahnomen Formation
+PEPK	Pokegama Quartzite
+PEPZ	Pierz Granite
+PERB	Rabbit Lake Formation
+PERD	Randall Formation
+PERE	Rabbit Lk.Fm-Emily Mbr
+PERF	Reformatory Granite
+PERK	Rockville Granite
+PERL	Rabbit Lk.Fm-Lower Mbr
+PERU	Rabbit Lk.Fm-Upper Mbr
+PERV	Rove Formation
+PESC	St.Cloud Granite
+PEST	Stearns Granitic Complex
+PETL	Trout Lake Formation
+PETM	Thomson Formation
+PETR	Trommald Formation
+PEUD	Early Proterozoic Rocks Und
+PEVR	Virginia Formation
+PEWR	Warman Granite
+PEYV	Proterozoic Basalt Dikes
+PITT	Pitt
+PMBB	Beaver Bay Complex
+PMCV	Chengwatana Volcanic Grp.
+PMDA	Duluth Cplx-anorth.Series
+PMDC	Duluth Complex
+PMDF	Duluth Cplx-felsic Series
+PMDT	Duluth Cplx-troct.Series
+PMFL	Fond Du Lac Formation
+PMHF	Hinckley-Fond Du Lac
+PMHN	Hinckley Sandstone
+PMLG	Logan Intrusions
+PMNP	Nopeming Sandstone
+PMNS	North Shore Volcanic Grp.
+PMPK	Puckwunge Formation
+PMPR	Pigeon River Intrusions
+PMRC	Red Clastic Series
+PMSC	Solor Church Formation
+PMSU	Mid.Proterozoic Sedimentary
+PMSX	Sioux Quartzite
+PMUD	Middle Proterozoic Rocks Un
+PMVU	Keweenawan Volcanics Und.
+PUDF	Paleozoic Undifferentiated
+PVMT	Pavement
+RMMF	Man-made fill
+RUUB	Recent Deposit-brown
+RUUR	Recent Deposit-red
+RUUU	Recent Deposit
+UREG	Weathering Residuum

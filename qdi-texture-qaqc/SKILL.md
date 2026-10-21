@@ -22,7 +22,7 @@ Use ArcGIS Pro's Python, because it has arcpy and pandas.  It can typically be f
 - `--refresh` re-reads the database, which takes about 30 s. Without it, the script uses the pickle cache (`--cache`).
 - `--lyr` points at another copy of the layer, and `--codes` at another code table.
 
-Supplemental CWI data used for identifying missing data can be found in the microsoft access database given below.  The 
+Supplemental CWI data used for identifying missing data can be found in the Microsoft access database at `T:/db_prod/cwi/data/cwidata.mdb`.  The 
 relevant tables are 
 - `c4ix` Main borehole data table containing summary and spatial information
 - `c4c1` Well construction information
